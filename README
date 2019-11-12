@@ -1,3 +1,5 @@
+<title> Motion Interrupt on Raspberry Pi 3 A+ with an MPU6050 IMU </title>
+
 *Before building, specify in the driver which i2c adapter you want to connect to (ex: i2c-1)*
 
 
@@ -11,9 +13,9 @@ You can use any linux board but I used a Raspberry Pi with the mpu connected to 
 
 Commands:
 
-make
-sudo insmod mpu6050.ko
+$ make
+$ sudo insmod mpu6050.ko
 ...(mpu is detecting motion)..
-sudo rmmod mpu6050.ko
+$ sudo rmmod mpu6050.ko
 ...(mpu goes to sleep)...
  
