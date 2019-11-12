@@ -20,5 +20,5 @@ $ sudo rmmod mpu6050.ko
 ...(mpu goes to sleep)...
 ```
 
-Output from oscilloscope hooked up to interrupt pin of MPU6050:
+Output from oscilloscope hooked up to interrupt pin of MPU6050 when motion is detected:
 ![](https://i.imgur.com/LCopkOC.png)
