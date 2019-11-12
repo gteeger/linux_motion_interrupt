@@ -19,3 +19,6 @@ $ sudo insmod mpu6050.ko
 $ sudo rmmod mpu6050.ko
 ...(mpu goes to sleep)...
 ```
+
+Output from oscilloscope hooked up to interrupt pin of MPU6050:
+![](https://i.imgur.com/LCopkOC.png)
