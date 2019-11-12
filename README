@@ -1,4 +1,4 @@
-<p class="h1">Motion Interrupt on Raspberry Pi 3 A+ with an MPU6050 IMU </p>
+# Motion Interrupt on Raspberry Pi 3 A+ with an MPU6050 IMU 
 
 *Before building, specify in the driver which i2c adapter you want to connect to (ex: i2c-1)*
 
