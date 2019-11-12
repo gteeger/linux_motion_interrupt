@@ -19,8 +19,7 @@ static struct i2c_board_info mpu_info __initdata = {
   I2C_BOARD_INFO ("mpu", 0x68)
 };
 
-static int __init
-mpu_init (void)
+static int __init mpu_init (void)
 {
   struct i2c_adapter *i2c_adap;
   __u8 read_byte;
@@ -144,8 +143,7 @@ mpu_init (void)
   return 0;
 }
 
-static void __exit
-mpu_exit (void)
+static void __exit mpu_exit (void)
 {
   //turn off mpu
   if (i2c_smbus_write_byte_data (mpu_client, PWR_MGMT_1, 0x40) < 0)
