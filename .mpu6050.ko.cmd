@@ -1,1 +1,0 @@
-cmd_/home/pi/Desktop/mpu6050/kernel_driver/mpu6050.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/mpu6050/kernel_driver/mpu6050.ko /home/pi/Desktop/mpu6050/kernel_driver/mpu6050.o /home/pi/Desktop/mpu6050/kernel_driver/mpu6050.mod.o ;  true
